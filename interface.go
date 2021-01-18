@@ -17,7 +17,7 @@ func (t T) M() {
 	fmt.Println(t.S)
 }
 
-func xiiMain() {
+func interfaceMain() {
 	var i I = T{"hello"}
 	i.M()
 }

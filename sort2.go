@@ -39,7 +39,7 @@ type Person struct {
 	CreateTime string
 }
 
-func main() {
+func sssmain() {
 	results := []interface{}{}
 	u1 := Person{
 		Name:       "A",
